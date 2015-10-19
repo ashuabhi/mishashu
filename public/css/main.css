@@ -1,0 +1,411 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+/* Base Stuff */
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    font: 16px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #333;
+    background: transparent;
+    border: 1px solid #333;
+    
+}
+
+nav a:hover {
+    color: white;
+    border: 1px solid #fff;
+}
+
+nav a:active {
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+}
+
+/* Helper Stuff */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.main {
+    padding: 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    font: 16px 'Tarvetica', "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+
+.header-container {
+    text-align: center;
+}
+.header-container h1 {
+    font-size:24px;
+}
+
+.banner ul li {
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+.banner ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Buttons */
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        margin: 0 auto;
+    }
+}
+
+.tabContent article {
+    background-color: #333;
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tabContent aside {
+    background-color: #333;
+    width:25%;
+    margin: 0 auto;
+    float:left;
+    padding: 50px 0;
+}
+
+.tabContent h3 {
+    font-weight: 500;
+    color:#b1b1b1;
+    font-size: 2em;
+    margin-top: 0;
+}
+.tabContent h4 {
+    font-weight: 500;
+    font-size: 1.85em;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+.tabContent p {
+    font-weight: 400;
+    color:#fff;
+    font-size: 1.15em;
+    margin: 0 0 20px 0;
+}
+.tabContent ul {
+    font-weight: 400;
+    color:#fff;
+    font-size: 1em;
+    line-height: 1.25em;
+    list-style-position: inherit;
+    padding:0 0 40px 20px;
+}
+
+.tabContent li {
+    list-style-type:disc; 
+    padding: 0;
+    margin-bottom:5px;
+}
+
+.tabContent a {
+    text-decoration:none;
+    color:#fff;
+}
+
+.tabContent a:hover, a:focus {
+    text-decoration:underline;
+    color:#fff;
+}
+
+.tabContent article hr {
+    height:1px;
+    border-top: 2px solid #666;
+}
+
+
+.tabContent {
+    background-color: #333;
+    margin: 0 auto;
+    padding: 0 30px
+}
+
+nav {
+    margin: 0;
+}
+nav ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+nav li {
+    margin: 0;
+    list-style: none;
+}
+nav a {
+    width: 225px;
+}
+
+
+/* Colors */
+.white {
+    color:#fff;
+}
+.green {
+    color:#dce442;
+}
+.warmblue {
+    color:#c5a7e1;
+}
+.mintgreen {
+    color: #98e2bf;
+}
+
+
+/* Widths */
+.half {
+    width: 45%;
+    float: left;
+    padding-right:5%;
+}    
+
+.twothird {
+    width:60%;
+    padding-right: 5%;
+    float: left;
+}
+
+.third {
+    width:28%;
+    float: left;
+    padding-right:5%;
+}
+
+.thirdButton {
+    float:right; 
+    font-weight: 700;
+    font-size: 1.25em;
+    width: 28%;
+    margin: 0;
+    vertical-align:middle;
+    pading:0;
+    text-align: center;
+    height: 38px;
+    border-radius: 4px;
+}
+.thirdButton a {
+    color:#333;
+    background-color: #dce442;
+}
+.thirdButton a:hover, a:focus {
+    color:#333;
+    background-color: #fff;
+    text-decoration: none;
+}
+.thirdButton a:active {
+    color:#333;
+    background-color: #c5a7e1;
+    text-decoration: none;
+}
+
+
+
+.bold {
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .third, .thirdButton, .twothirds, .half {
+        float:none;
+        width:90%;
+        text-align: left;
+        clear:both;
+    }
+    .thirdButton {
+        padding: 0;
+        margin: 0 0 25px 0 !important;
+    }
+    .tabContent h3 {
+        font-weight: 500;
+        color:#b1b1b1;
+        font-size: 1.75em;
+        margin-top: 0;
+    }
+    .tabContent h4 {
+        font-weight: 500;
+        font-size: 1.55em;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+    
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+/* ALL: IE Fixes */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+.banner {
+    margin:20px 0 0 0;  
+}
+

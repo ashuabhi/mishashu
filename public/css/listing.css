@@ -1,0 +1,39 @@
+.derbysListing{
+	width: 90%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.teamRow{
+	height: 60px;
+}
+.noTeam{
+	height: 60px;
+	background: -webkit-linear-gradient(#ffde17, #abe1fa);
+    background: -o-linear-gradient(#ffde17, #abe1fa);
+    background: -moz-linear-gradient(#ffde17, #abe1fa);
+    background: linear-gradient(#ffde17, #abe1fa);
+}
+.evenTeam{
+	background: -webkit-linear-gradient(#dce442, #ffa400); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#dce442, #ffa400); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#dce442, #ffa400); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dce442, #ffa400); /* Standard syntax (must be last) */
+}
+.evenTeam td, .oddTeam td{
+	padding-left: 10px;
+}
+.oddTeam{
+	background: -webkit-linear-gradient(#abe1fa, #c5a7e1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#abe1fa, #c5a7e1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#abe1fa, #c5a7e1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#abe1fa, #c5a7e1); /* Standard syntax (must be last) */
+}
+.derbysListingHeaders{
+	background: -webkit-linear-gradient(#996600, #918104);
+    background: -o-linear-gradient(#996600, #918104);
+    background: -moz-linear-gradient(#996600, #918104);
+    background: linear-gradient(#996600, #918104);
+}
+.derbysListingData{
+	font-weight: 400;
+}

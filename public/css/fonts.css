@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Allura';
+  src: url("../fonts/Allura-Regular.ttf") format("truetype"); 
+}
+
+@font-face {
+  font-family: 'ChildFont';
+  src: url("../fonts/ck-childs-play.ttf") format("truetype"); 
+}
+
+@font-face {
+  font-family: 'Precious';
+  src: url("../fonts/Precious.ttf") format("truetype"); 
+}
+
+@font-face {
+  font-family: 'Mad';
+  src: url("../fonts/Mad.ttf") format("truetype"); 
+}
+
+@font-face {
+  font-family: 'Bergamot';
+  src: url("../fonts/Bergamot.ttf") format("truetype"); 
+}
+
+@font-face {
+  font-family: 'Calligraphia';
+  src: url("../fonts/Calligraphia.ttf") format("truetype"); 
+}

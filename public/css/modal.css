@@ -1,0 +1,77 @@
+.modalDialog {
+    position: fixed;
+    font-family: 'Tarvetica', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 75%;
+    max-width: 1000px;
+    position: relative;
+    margin: 10% auto;
+    padding: 30px 30px 90px 30px;
+    background: #333;
+}
+.modalDialog h2 {
+    color: #b1b1b7;
+    font-weight:500;
+    font-size:2em;
+    margin-top:0;
+    padding-top:0;
+}
+
+.modalDialog h3 {
+    color: #b1b1b7;
+    font-weight:500;
+    font-size:1.85em;
+    padding: 0;
+    margin: 0;
+}
+
+.modalDialog hr {
+    border-top:1px solid #b1b1b7;
+}
+
+.close {
+    color: #fff;
+    line-height: 25px;
+    position: absolute;
+    right: 30px;
+    text-align: center;
+    top: 35px;
+    width: 32px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:0;
+}
+.close:hover {
+    background: #00d9ff;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 50%;
+    height: 34px;
+    font-family: 'Tarvetica', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+}

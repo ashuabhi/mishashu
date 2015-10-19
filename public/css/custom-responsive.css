@@ -1,0 +1,155 @@
+/*  All the redaptive boundaries go here: start; */
+/* Mobile styles: start */
+/* Small mobile welcome screen styles: start */
+@media (max-height: 426px) {
+    .header-container h1 {
+        font-size: 3em;
+    }
+    .header-container h2, .category-header-right, .category-header-left {
+        font-size: 1.5em;
+    }
+    .welcome-message{
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 325px) {
+    .header-container h1 {
+        font-size: 3em;
+    }
+    .header-container h2, .category-header-right, .category-header-left {
+        font-size: 1.5em;
+    }
+    .welcome-message{
+        font-size: 0.95em;
+    }
+}
+
+/* Small mobile welcome screen styles: end */
+/* Mobile Portrait orientation: start */
+
+@media (max-width: 480px) and (min-height: 426px) {
+    .header-container h1 {
+        font-size: 3em;
+    }
+    .header-container h2, .category-header-right, .category-header-left {
+        font-size: 1.5em;
+    }
+    .welcome-message{
+        font-size: 0.95em;
+    }
+}
+@media (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2),
+(max-width: 480px) and (min-resolution: 192dpi),
+(max-width: 480px) and (min--moz-device-pixel-ratio: 2),
+(max-width: 480px) and (-o-min-device-pixel-ratio: 2/1),
+(max-width: 480px) and (min-device-pixel-ratio: 2),
+(max-width: 480px) and (min-resolution: 2dppx) {
+    
+}
+/* Mobile Portrait orientation: end */
+/* Mobile Landscape orientation: start */
+
+@media (min-width: 480px) and (max-height: 426px) and (max-width: 750px) {
+    .header-container h1 {
+        font-size: 3em;
+    }
+    .header-container h2, .category-header-right, .category-header-left {
+        font-size: 1.5em;
+    }
+    .welcome-message{
+        font-size: 0.95em;
+    }
+}
+@media (min-width: 480px) and (min-height: 426px) and (max-height: 480px) and (max-width: 750px) {
+    .header-container h1 {
+        font-size: 3em;
+    }
+    .header-container h2, .category-header-right, .category-header-left {
+        font-size: 1.5em;
+    }
+    .welcome-message{
+        font-size: 0.95em;
+    }
+}
+@media (min-width: 480px) and (max-height: 480px) and (max-width: 750px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 480px) and (max-height: 480px) and (max-width: 750px) and (min-resolution: 192dpi),
+(min-width: 480px) and (max-height: 480px) and (max-width: 750px) and (min--moz-device-pixel-ratio: 2),
+(min-width: 480px) and (max-height: 480px) and (max-width: 750px) and (-o-min-device-pixel-ratio: 2/1),
+(min-width: 480px) and (max-height: 480px) and (max-width: 750px) and (min-device-pixel-ratio: 2),
+(min-width: 480px) and (max-height: 480px) and (max-width: 750px) and (min-resolution: 2dppx) {
+    
+}
+/* Mobile Landscape orientation: end */
+/* Mobile styles: end */
+/* Tablet styles: start */
+/* Tablet Portrait orientation: start */
+
+@media (min-width: 480px) and (min-height: 480px) and (max-width: 800px) and (max-height: 1280px) {
+    
+}
+@media (min-width: 480px) and (min-height: 480px) and (max-width: 800px) and (max-height: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 480px) and (min-height: 480px) and (max-width: 800px) and (max-height: 1280px) and (min-resolution: 192dpi),
+(min-width: 480px) and (min-height: 480px) and (max-width: 800px) and (max-height: 1280px) and (min--moz-device-pixel-ratio: 2),
+(min-width: 480px) and (min-height: 480px) and (max-width: 800px) and (max-height: 1280px) and (-o-min-device-pixel-ratio: 2/1),
+(min-width: 480px) and (min-height: 480px) and (max-width: 800px) and (max-height: 1280px) and (min-device-pixel-ratio: 2),
+(min-width: 480px) and (min-height: 480px) and (max-width: 800px) and (max-height: 1280px) and (min-resolution: 2dppx) {
+    
+}
+/* Tablet Portrait orientation: end  */
+/* Tablet Landscape orientation: start */
+
+@media (min-width: 750px) and (max-height: 800px) and (max-width: 1280px) {
+    
+}
+@media (min-width: 750px) and (max-height: 800px) and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 750px) and (max-height: 800px) and (max-width: 1280px) and (min-resolution: 192dpi),
+(min-width: 750px) and (max-height: 800px) and (max-width: 1280px) and (min--moz-device-pixel-ratio: 2),
+(min-width: 750px) and (max-height: 800px) and (max-width: 1280px) and (-o-min-device-pixel-ratio: 2/1),
+(min-width: 750px) and (max-height: 800px) and (max-width: 1280px) and (min-device-pixel-ratio: 2),
+(min-width: 750px) and (max-height: 800px) and (max-width: 1280px) and (min-resolution: 2dppx) {
+    
+}
+/* Tablet Landscape orientation: end */
+/* Tablet styles: end */
+/* Desktop styles: start */
+/* Desktop is always in one mode. */
+@media (min-width: 800px) and (min-height: 800px),
+(min-width: 1280px),
+(min-height: 1280px) {
+
+    
+}
+@media (min-width: 800px) and (min-height: 800px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 800px) and (min-height: 800px) and (min-resolution: 192dpi),
+(min-width: 800px) and (min-height: 800px) and (min--moz-device-pixel-ratio: 2),
+(min-width: 800px) and (min-height: 800px) and (-o-min-device-pixel-ratio: 2/1),
+(min-width: 800px) and (min-height: 800px) and (min-device-pixel-ratio: 2),
+(min-width: 800px) and (min-height: 800px) and (min-resolution: 2dppx),
+(min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 1280px) and (min-resolution: 192dpi),
+(min-width: 1280px) and (min--moz-device-pixel-ratio: 2),
+(min-width: 1280px) and (-o-min-device-pixel-ratio: 2/1),
+(min-width: 1280px) and (min-device-pixel-ratio: 2),
+(min-width: 1280px) and (min-resolution: 2dppx),
+(min-height: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+(min-height: 1280px) and (min-resolution: 192dpi),
+(min-height: 1280px) and (min--moz-device-pixel-ratio: 2),
+(min-height: 1280px) and (-o-min-device-pixel-ratio: 2/1),
+(min-height: 1280px) and (min-device-pixel-ratio: 2),
+(min-height: 1280px) and (min-resolution: 2dppx) {
+    
+}
+/* Common retina settings here for all devices: start; */
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min--moz-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-device-pixel-ratio: 2),
+(min-resolution: 2dppx) {
+    
+}
+/* Common retina settings here for all devices: end; */
+/* Desktop styles: end */
+/*  All the redaptive boundaries go here: end; */
